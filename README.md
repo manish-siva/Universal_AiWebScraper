@@ -18,8 +18,9 @@ A **no‑code, AI‑enhanced** web scraping tool built with **Streamlit**, **Sel
 ---
 
 ## 🗂️ Project Structure
+
 ```
-📦 your-repo/
+📦 Universal_AiWebScraper/
 │
 ├── ui.py                         # 🎛️ Streamlit user interface
 ├── Markdowncnvrtr.py             # 🔄 HTML to Markdown converter
@@ -37,46 +38,78 @@ A **no‑code, AI‑enhanced** web scraping tool built with **Streamlit**, **Sel
 ## 🖼️ App Screenshots
 
 ### 🏠 Streamlit UI – Homepage  
-> _Paste a URL, type your fields, and press “Scrape”._
+_Paste a URL, type your fields, and press “Scrape”._
 
-![Homepage Screenshot](img/UI.png) 
+![Homepage Screenshot](img/UI.png)
 
 ---
 
 ### 📊 AI Output & Download  
-> _Download your data in multiple formats._
+_Download your data in multiple formats._
 
 ![Results Screenshot](img/Output.png)
 
 ---
 
-<details>
-<summary>⚙️ <strong>Setup Instructions</strong> (Click to expand)</summary>
+## ⚙️ Installation
 
-```bash
-# 1. Clone the repository
+1. Clone the repository:
+
+```
 git clone https://github.com/manish-siva/Universal_AiWebScraper.git
-cd Universal_AiWebScraper
-
-# 2. Create and activate the virtual environment
-python -m venv venv
-# On Windows:
-.\venv\Scripts\activate
-
-# 3. Upgrade pip
-python -m pip install --upgrade pip
-
-# 4. Install required packages
-pip install -r requirements.txt
-
-# 5. Add your Google API key
-# Add your API key in the .env file
-
-# 6. Run the Streamlit app
-streamlit run ui.py
 ```
 
-</details>
+2. Navigate to the project directory:
+
+```
+cd Universal_AiWebScraper
+```
+
+3. Create a virtual environment:
+
+```
+python -m venv venv
+```
+
+4. Activate the virtual environment:
+
+On **Windows**:
+
+```
+venv\Scripts\activate
+```
+
+On **macOS/Linux**:
+
+```
+source venv/bin/activate
+```
+
+5. Upgrade pip:
+
+```
+python -m pip install --upgrade pip
+```
+
+6. Install required packages:
+
+```
+pip install -r requirements.txt
+```
+
+7. Add your Google API key:
+
+> Create a file named `.env` in the root directory and add the following:
+
+```
+GOOGLE_API_KEY=your_api_key_here
+```
+
+8. Run the Streamlit app:
+
+```
+streamlit run ui.py
+```
 
 ---
 
@@ -127,7 +160,14 @@ df.to_csv("books.csv", index=False)
 
 See `requirements.txt` for full versions. Major packages used:
 
-- `streamlit`, `selenium`, `webdriver-manager`, `html2text`, `google-generativeai`, `pandas`, `pydantic`, `python-dotenv`
+- `streamlit`
+- `selenium`
+- `webdriver-manager`
+- `html2text`
+- `google-generativeai`
+- `pandas`
+- `pydantic`
+- `python-dotenv`
 
 ---
 
