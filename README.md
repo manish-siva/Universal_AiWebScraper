@@ -55,7 +55,7 @@ A **no‑code, AI‑enhanced** web scraping tool built with **Streamlit**, **Sel
 ```bash
 # 1. Clone the repository
 git clone https://github.com/manish-siva/Universal_AiWebScraper.git
-cd <Universal_AiWebScraper>
+cd .\Universal_AiWebScraper\
 
 # 2. Create a virtual environment
 python -m venv venv
