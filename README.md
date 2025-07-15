@@ -55,22 +55,26 @@ A **no‑code, AI‑enhanced** web scraping tool built with **Streamlit**, **Sel
 ```bash
 # 1. Clone the repository
 git clone https://github.com/manish-siva/Universal_AiWebScraper.git
-cd .\Universal_AiWebScraper\
+cd Universal_AiWebScraper
 
-# 2. Create a virtual environment
+# 2. Create and activate the virtual environment
 python -m venv venv
-source venv/bin/activate      # Windows: venv\Scriptsctivate
+# On Windows:
+.\venv\Scripts\activate
 
-# 3. Install required packages
+# 3. Upgrade pip
+python -m pip install --upgrade pip
+
+# 4. Install required packages
 pip install -r requirements.txt
 
-# 4. Add your Google API key (Make a .env file if it it is not available )
-echo "GOOGLE_API_KEY=your_api_key" > .env
+# 5. Add your Google API key
+#Add Your api key in the env file 
 
-# 5. Run the app
+# 6. Run the Streamlit app
 streamlit run ui.py
-```
-# make sure you create your api key #
+
+# Make sure you create your api key and insert it at the env file  #
 ---
 
 ## 🧠 How It Works
