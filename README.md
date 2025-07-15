@@ -1,3 +1,4 @@
+
 # 🌐 Universal Web Scraper — Streamlit + Gemini AI
 
 A **no‑code, AI‑enhanced** web scraping tool built with **Streamlit**, **Selenium**, and **Google Gemini Flash 1.5**. Easily extract structured data from paginated web pages by specifying just the fields you want — no selectors, no HTML parsing, no coding.
@@ -42,7 +43,6 @@ A **no‑code, AI‑enhanced** web scraping tool built with **Streamlit**, **Sel
 
 ---
 
-
 ### 📊 AI Output & Download  
 > _Download your data in multiple formats._
 
@@ -50,7 +50,8 @@ A **no‑code, AI‑enhanced** web scraping tool built with **Streamlit**, **Sel
 
 ---
 
-## ⚙️ Setup Instructions
+<details>
+<summary>⚙️ <strong>Setup Instructions</strong> (Click to expand)</summary>
 
 ```bash
 # 1. Clone the repository
@@ -69,12 +70,14 @@ python -m pip install --upgrade pip
 pip install -r requirements.txt
 
 # 5. Add your Google API key
-#Add Your api key in the env file 
+# Add your API key in the .env file
 
 # 6. Run the Streamlit app
 streamlit run ui.py
+```
 
-# Make sure you create your api key and insert it at the env file  #
+</details>
+
 ---
 
 ## 🧠 How It Works
