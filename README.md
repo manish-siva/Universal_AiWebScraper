@@ -54,8 +54,8 @@ A **no‑code, AI‑enhanced** web scraping tool built with **Streamlit**, **Sel
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/<your-username>/<repo-name>.git
-cd <repo-name>
+git clone https://github.com/manish-siva/Universal_AiWebScraper.git
+cd <Universal_AiWebScraper>
 
 # 2. Create a virtual environment
 python -m venv venv
@@ -68,7 +68,7 @@ pip install -r requirements.txt
 echo "GOOGLE_API_KEY=your_api_key" > .env
 
 # 5. Run the app
-streamlit run Task8pt1_ui.py
+streamlit run ui.py
 ```
 # make sure you create your api key #
 ---
